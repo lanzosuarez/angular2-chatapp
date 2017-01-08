@@ -12,6 +12,7 @@ var userRoutes = require('./routes/user');
 
 var app = express();
 
+//mongoose.connect('127.0.0.1:27017/node-angular');
 mongoose.connect('lanzosuarez:bobotngacla1234@ds159188.mlab.com:59188/angular2-deployment');
 
 // view engine setup
